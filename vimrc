@@ -24,7 +24,7 @@ if has("gui_running")
     set gfn=WenQuanYi\ Micro\ Hei\ Mono\ 10
     color monokai
 else
-    color desert
+    color aqua
 endif
 
 " Enable omni completion.
@@ -104,6 +104,10 @@ let g:mapleader = ","
 " Fast Save
 nmap <leader>w :w!<cr>
 imap <leader>w <esc>:w!<cr>
+
+" Fast Quit
+nmap <leader>q :q!<cr>
+imap <leader>q <esc>:q!<cr>
 
 " Fast reload vimrc
 map <leader>s :source ~/.vimrc<cr>
