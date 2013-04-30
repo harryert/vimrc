@@ -14,7 +14,7 @@ Bundle 'gmarik/vundle'
 Bundle 'Shougo/neocomplcache'
 Bundle 'garbas/vim-snipmate'
 Bundle 'ervandew/supertab'
-Bundle 'honza/snipmate-snippets'
+Bundle 'honza/vim-snippets'
 Bundle 'mattn/zencoding-vim'
 " snipmate dependencies
 Bundle 'MarcWeber/vim-addon-mw-utils'
@@ -61,7 +61,7 @@ Bundle 'nvie/vim-togglemouse'
 " web backend
 Bundle '2072/PHP-Indenting-for-VIm'
 "Bundle 'tpope/vim-rails'
-Bundle 'beyondwords/vim-jinja2'
+Bundle 'lepture/vim-jinja'
 "Bundle 'digitaltoad/vim-jade'
 
 " web front end
