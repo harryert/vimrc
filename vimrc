@@ -1,4 +1,3 @@
-
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Bundle Sources
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -96,6 +95,9 @@ set pastetoggle=<F3>
 " Highlight current line
 "au WinLeave * set nocursorline nocursorcolumn
 "au WinEnter * set cursorline cursorcolumn
+
+" Set Powerline
+let g:Powerline_symbols = 'fancy'
 
 " Set leader
 let mapleader = ","
