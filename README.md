@@ -1,16 +1,16 @@
-or-vimrc
+vimrc
 ========
 
 How to Install
 --------
 
- * Download or-vimrc
+ * Download vimrc
  
-         git clone git://github.com/openroc/or-vimrc.git
+         git clone git://github.com/openroc/vimrc.git
 
  * Backup your old stuffs, Link vim to .vim and vimrc to .vimrc, then create a dir named "bundle" in .vim
 
-         cd or-vimrc
+         cd vimrc
          ln -sf . ~/.vim
          ln -sf vimrc ~/.vimrc
          mkdir -p ~/.vim/bundle
